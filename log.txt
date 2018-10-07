@@ -1,0 +1,6 @@
+Rank: 5  Adjacent nodes: (0,10,-1,6)	 with Random Number: 2
+Time spent: [ 0.008731 ]
+Rank: 14  Adjacent nodes: (9,19,13,-1)	 with Random Number: 2
+Time spent: [ 0.000049 ]
+Rank: 8  Adjacent nodes: (3,13,7,9)	 with Random Number: 1
+Time spent: [ 0.001476 ]
