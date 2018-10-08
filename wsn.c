@@ -108,6 +108,7 @@ char **argv;
   int grid[no_row][no_col][4];
   double start_time, end_time, time_spent;
 
+  //open file for writing
   FILE *fp;
   fp = fopen("log.txt","w+");
 
@@ -126,7 +127,7 @@ char **argv;
   int iterate_count = 1000;
   while (iterate_count>0){
 
-  //This is the slave function, if the rank is not 20-base station
+  //This is the slave function, if the rank is not 20: base station
   if (rank!=20){
     start_time = MPI_Wtime(); //Record the start time
     srand(clock());
